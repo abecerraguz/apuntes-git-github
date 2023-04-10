@@ -1,3 +1,42 @@
+# Comandos para movernos dentro del terminal (Comandos o acciones) son los siguientes:
+
+   - La utilizaremos para controlar las versiones de nuestro proyecto 
+   - Estructura de directorio
+   - La Raiz de los nodos esta definida por el "/".
+   - Una de las cosas mas importantes es saber en que directorio estamos trabajando:
+   
+        - pwd + enter ( Nos muestra en que directorio estamos trabajando ).
+        - ls + enter ( Nos muestra la lista del directorio padre ).
+        - ls -a + enter ( Nos muestra los archivos ocultos )
+        - cd + enter ( Nos permite navegar entre directorios )
+        - cd nombreDirectorio/ nos lleva al directorio Raiz
+        - cd .. ( Nos vuelve atras o directorio padre ).
+        - cd Documents ( Nos lleva a la carpeta Documentos )
+        
+# Anatomia de un comando
+
+- pwd (Nombre del comando), algunos comando tienen un argumento como por ejemplo:
+- cd Desktop ( Desktop es el argumento ).
+- ls -a ( Algunos comandos tienen opciones es el caso del - o a veces -- )
+
+# Administración de archivos y carpetas desde el terminal
+
+- mkdir + ( Nombre del directorio ) crea un directorio ejemplo. 
+- mkdir proyecto1
+- touch + ( Nombre del archivo ) crea un archivo con la extension "html".
+- touch index.html     
+- cp + ( Nombre del archivo este copia el archivo ) ejemplo:
+    - cp index.html proyecto1/index.html
+    - cp index.html proyecto1/index2.html ( Crea una copia del archivo original ).
+- cp index.html index3.html ( Copia otro archivo dentro del directorio ).     
+- Copiar un directorio dentro de otro.
+    - mkdir assets
+    - cp -r assets proyecto1    
+- rm ( Importante borra sin ir a la papelera )
+- rm archivo.extension : Borra un archivo.
+- rm -r directorio : Borra un directorio de manera recursiva (borra el directorio y sus   archivos y directorios internos).
+- rm .* , remueve todos los temporales
+
 # INSTALAR GIT
 
 ## Instalando GIT
@@ -5,7 +44,7 @@
 Abrir el Terminal o GitBash escribir lo siguiente.
 
 ~~~
-	
+
 	$ brew install git
 
 ~~~
