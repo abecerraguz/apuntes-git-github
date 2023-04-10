@@ -63,11 +63,9 @@ Para ver la version de Git instalada
 
 Para configurar git escribir el usuario y la contraseña de GitHub
 
-~~~
-	
-	 git --global user.name "username" 
-     git --global user.email "ingresecorreo@gmail.com"
-
+~~~	
+git --global user.name "username" 
+git --global user.email "ingresecorreo@gmail.com"
 ~~~
 
 ## Iniciar un proyecto en Git 
