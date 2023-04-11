@@ -110,9 +110,19 @@ git mv nombre_original nombre_final
 ~~~
 
 ## Para crear una git pages 
-
 ~~~
 git branch gh-pages
+~~~
+
+## Para crear una rama 
+~~~
+git branch nombre_de_la_rama
+~~~
+
+## Para fusionar una rama o merge
+`Recuerde para fusionar una rama usted debe estar situado en la rama que desa traer los cambios`
+~~~
+git merge nombre_de_la_rama
 ~~~
 
 ## Eliminar git desde un proyecto
