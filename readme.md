@@ -85,6 +85,23 @@ git commit -m "Segundo commit"
 git status
 git log
 ~~~
+4. Paso cuatro para crear ramas:
+~~~
+git branch nombre-de-la-rama
+~~~
+5. Paso cinco para moverme dentro de las ramas :
+~~~
+git checkout nombre-de-la-rama
+~~~
+6. Paso seis para desplazarme dentro del tiempo en el proyecto dentro de las ramas podemos escribir git checkout + la identificación del hash:
+~~~
+git checkout hash
+~~~
+
+## Cambios de nombre de archivos
+~~~
+git mv nombre_original nombre_final
+~~~
 
 ## Para crear una git pages 
 
@@ -114,11 +131,12 @@ rm -rf .git
 ~~~
     Comando para MAC 
     pbcopy < ~/.ssh/id_rsa.pub
+    
     Comado para WINDOW 
     clip < ~/.ssh/id_rsa.pub
 ~~~
 
-5. Paso 6 ir a Github registrarse y luego ir a setting (Esta en el icono de perfil extrema derecha hacer click seleccionar setting). Ir al menu izquierdo y seleccionar la opción "SSH and GPG Keys", luego seleccionar la opción "New SSH Key" y Pegar la clave copiada desde el terminal.
+5. Paso 5 ir a Github registrarse y luego ir a setting (Esta en el icono de perfil extrema derecha hacer click seleccionar setting). Ir al menu izquierdo y seleccionar la opción "SSH and GPG Keys", luego seleccionar la opción "New SSH Key" y Pegar la clave copiada desde el terminal.
 
 
 
