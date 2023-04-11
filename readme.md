@@ -80,6 +80,9 @@ git commit -m "Mi pimer commit"
 git add .
 git commit -m "Segundo commit"
 git commit --amend -m "Usted puede modificar el detalle de un commit"
+
+Para subir los cambios de un commit modificado y forzarlo a que suba:
+git push origin master -f
 ~~~ 
 
 3. Paso Tres para ver el estado de los commit puedo escribir lo siguiente:
