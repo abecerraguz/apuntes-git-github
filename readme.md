@@ -64,6 +64,11 @@ git --global user.name "username"
 git --global user.email "ingresecorreo@gmail.com"
 ~~~
 
+## Confirmar la configuración de GIT
+~~~	
+git config --list
+~~~
+
 ## Iniciar un proyecto en Git 
 
 Para iniciar un proyecto en Git debo desplazarme al proyecto de la carpeta a traves del Terminal y luego escribir los siguientes comandos:
