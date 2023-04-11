@@ -152,13 +152,11 @@ git reset –-merge ORIG_HEAD
 ~~~
 
 ## Eliminar git desde un proyecto
-
 ~~~
 rm -rf .git
 ~~~
 
 # Crear clave SSH para sincronizar GIT y GITHUB
-
 
 1. Paso 1 ingresar en el terminal correo que ingresaste en github, Enter
 	`ssh-keygen -t rsa -b 4096 -C "tu_correo@gmail.com"`
@@ -181,6 +179,20 @@ rm -rf .git
 5. Paso 5 ir a Github registrarse y luego ir a setting (Esta en el icono de perfil extrema derecha hacer click seleccionar setting). Ir al menu izquierdo y seleccionar la opción "SSH and GPG Keys", luego seleccionar la opción "New SSH Key" y Pegar la clave copiada desde el terminal.
 
 
+# Uso de Tag 
 
+## Tags Anotadas ( Recomedadas )
+Las `tag anotadas` son almacenadas como objetos completos dentro de la base de GIT y contiene más información.
+
+~~~
+git tag -a v1.0 -m "Mensaje"
+~~~
+
+## Tags Ligeras
+Las `tag ligeras` son otra forma de crear tags, más simples y con poca información.
+
+~~~
+git tag v1.0
+~~~
 
 
