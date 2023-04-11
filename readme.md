@@ -98,6 +98,12 @@ git checkout nombre-de-la-rama
 git checkout hash
 ~~~
 
+## Sincronizar el proyecto a la rama master
+~~~
+git fetch --all
+git reset --hard origin/master
+~~~
+
 ## Cambios de nombre de archivos
 ~~~
 git mv nombre_original nombre_final

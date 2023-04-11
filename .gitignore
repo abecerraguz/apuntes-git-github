@@ -6,5 +6,4 @@
 build/
 # Se ignoran todos los archivos en la carpeta doc/ excepto doc/notes.txt
 doc/*.txt
-# Se ignora el archivo cambio_nombre-a-otros.html
-cambio_nombre-a-otros.html
+.DS_Store
