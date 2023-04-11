@@ -79,11 +79,14 @@ git commit -m "Mi pimer commit"
 ~~~
 git add .
 git commit -m "Segundo commit"
- ~~~     
+git commit --amend -m "Usted puede modificar el detalle de un commit"
+~~~ 
+
 3. Paso Tres para ver el estado de los commit puedo escribir lo siguiente:
 ~~~
 git status
 git log
+git reflog
 ~~~
 4. Paso cuatro para crear ramas:
 ~~~
@@ -138,6 +141,11 @@ git branch -D nombre_rama
 `Recuerde para fusionar una rama usted debe estar situado en la rama que desa traer los cambios`
 ~~~
 git merge nombre_de_la_rama
+~~~
+
+## Para deshacer una fusión, se puede usar el comando git reset; se indica un ejemplo más adelante.
+~~~
+git reset –-merge ORIG_HEAD
 ~~~
 
 ## Eliminar git desde un proyecto
