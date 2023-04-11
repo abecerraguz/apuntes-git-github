@@ -1,1 +1,10 @@
-.DS_Store
+# Se ignoran todos los archivos con extensión .log
+*.log
+# Menos este archivo en particular
+!example.log
+# Se ignoran todos los archivos en la carpeta build/
+build/
+# Se ignoran todos los archivos en la carpeta doc/ excepto doc/notes.txt
+doc/*.txt
+# Se ignora el archivo cambio_nombre-a-otros.html
+cambio_nombre-a-otros.html
