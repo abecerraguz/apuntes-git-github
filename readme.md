@@ -119,6 +119,21 @@ git branch gh-pages
 git branch nombre_de_la_rama
 ~~~
 
+## Para eliminar una rama remota
+~~~
+git push origin --delete nombre-de-rama
+~~~
+
+## Para eliminar una rama local
+~~~
+git branch -d nombre_rama
+~~~
+
+## Para eliminar una rama que contenga trabajos sin fusionar
+~~~
+git branch -D nombre_rama
+~~~
+
 ## Para fusionar una rama o merge
 `Recuerde para fusionar una rama usted debe estar situado en la rama que desa traer los cambios`
 ~~~
